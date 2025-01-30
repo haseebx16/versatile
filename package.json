@@ -9,15 +9,35 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@react-three/drei": "^9.121.4",
+    "@react-three/fiber": "^8.17.14",
+    "@tsparticles/all": "^3.7.1",
+    "@tsparticles/react": "^3.0.0",
+    "@tsparticles/slim": "^3.7.1",
+    "aos": "^2.3.4",
+    "emailjs-com": "^3.2.0",
+    "framer-motion": "^12.0.1",
+    "gsap": "^3.12.7",
+    "lenis": "^1.1.20",
+    "locomotive-scroll": "^4.1.4",
+    "next": "15.1.6",
+    "parallax-js": "^3.1.0",
     "react": "^19.0.0",
+    "react-countup": "^6.5.3",
     "react-dom": "^19.0.0",
-    "next": "15.1.6"
+    "react-icons": "^5.4.0",
+    "react-particles": "^2.12.2",
+    "react-slick": "^0.30.3",
+    "slick-carousel": "^1.8.1",
+    "three": "^0.172.0",
+    "tsparticles": "^3.7.1",
+    "vanta": "^0.5.24"
   },
   "devDependencies": {
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
+    "@eslint/eslintrc": "^3",
     "eslint": "^9",
     "eslint-config-next": "15.1.6",
-    "@eslint/eslintrc": "^3"
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
   }
 }
