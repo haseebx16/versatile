@@ -71,11 +71,11 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #85cd19;
+  background: #bf52bd;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #7fc416;
+  background: #9d12a1;
 }
 
 .preloader {
