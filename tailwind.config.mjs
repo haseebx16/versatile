@@ -10,7 +10,8 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        customPurple: "#bf52bd"
+        customPurple: "#bf52bd",
+        galaxy: "#63326a",
       },
     },
   },
