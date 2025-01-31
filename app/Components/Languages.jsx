@@ -29,19 +29,19 @@ const Languages = () => {
     arrows: false,
     responsive: [
       {
-        breakpoint: 1024, // Tablets
+        breakpoint: 1024,
         settings: {
           slidesToShow: 3,
         },
       },
       {
-        breakpoint: 768, // Small tablets & large phones
+        breakpoint: 768,
         settings: {
           slidesToShow: 2,
         },
       },
       {
-        breakpoint: 480, // Mobile devices
+        breakpoint: 480,
         settings: {
           slidesToShow: 1,
         },
