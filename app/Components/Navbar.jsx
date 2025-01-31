@@ -33,7 +33,7 @@ export default function Header() {
             <img
               src="/logo.png"
               alt="Logo"
-              className="w-auto h-52"
+              className="w-auto h-24 p-4"
             />
           </Link>
         </div>
