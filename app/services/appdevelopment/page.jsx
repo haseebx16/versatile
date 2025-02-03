@@ -117,9 +117,9 @@ const page = () => {
           <p className="text-md text-black mt-6">
           Are you in need of a skilled Android Developer or team to bring your android application to life? Look no further than <span className='text-customPurple'>Versatile Marketers.</span>
           </p>
-          <button className="btn-primary border-2 border-black bg-transparent text-black hover:text-white hover:bg-black mt-6">
+          <a href="/contact"><button className="btn-primary border-2 border-black bg-transparent text-black hover:text-white hover:bg-black mt-6">
             Let's Connect
-          </button>
+          </button></a>
         </div>
       </section>
     </div>

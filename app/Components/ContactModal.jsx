@@ -40,8 +40,8 @@ const ContactModal = ({ isOpen, onClose }) => {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-80 flex justify-center items-center z-50">
-      <div className="bg-black p-8 rounded-lg shadow-lg w-full max-w-lg relative">
+    <div className="fixed inset-0 industy-gradient bg-opacity-80 flex justify-center items-center z-50">
+      <div className="industry-gradient p-8 rounded-lg shadow-lg w-full max-w-lg relative">
         <button
           onClick={onClose}
           className="absolute top-2 right-2 text-white hover:text-cards"
@@ -113,7 +113,7 @@ const ContactModal = ({ isOpen, onClose }) => {
 
           <button
             type="submit"
-            className="w-full bg-cards text-black p-2 rounded-lg hover:bg-card1 hover:text-white"
+            className="w-full bg-customPurple text-white p-2 rounded-lg hover:bg-white hover:border hover:border-customPurple hover:text-black duration-300"
           >
             Submit
           </button>

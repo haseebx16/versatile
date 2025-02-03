@@ -117,9 +117,9 @@ const page = () => {
           <p className="text-md text-black mt-6">
           Are you in need of a skilled Designer or team to give your application idea a beautiful look? Look no further than Versatile Marketers.
           </p>
-          <button className="btn-primary border-2 border-black bg-transparent text-black hover:text-white hover:bg-black mt-6">
+          <a href="/contact"><button className="btn-primary border-2 border-black bg-transparent text-black hover:text-white hover:bg-black mt-6">
             Let's Connect
-          </button>
+          </button></a>
         </div>
       </section>
     </div>

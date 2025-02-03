@@ -65,8 +65,9 @@ export default function Hero() {
           </div>
         </div>
       </div>
+          <ContactModal isOpen={isModalOpen} onClose={closeModal}/>
       <div className='flex justify-center items-center mt-16'>
-        <button data-aos="fade-up" className='px-4 py-2 border-2 border-customPurple text-customPurple font-bold rounded-full'>Scroll Down &#8595;</button>
+        <button data-aos="fade-up" className='px-4 pulse-button py-2 border-2 border-customPurple text-customPurple font-bold rounded-full'>Scroll Down &#8595;</button>
       </div>
     </section>
   );
