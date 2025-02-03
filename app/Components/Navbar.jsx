@@ -40,7 +40,7 @@ export default function Header() {
 
         {/* Navigation Links */}
         <div className="hidden md:flex space-x-6 items-center">
-          <Link data-aos="fade-right" href="/" className="text-black hover:text-zinc-700 transition">
+          <Link data-aos="fade-right" href="/" className="text-black hover:text-customPurple transition">
             Home
           </Link>
 
@@ -50,7 +50,7 @@ export default function Header() {
             onMouseLeave={() => setIsServicesOpen(false)}
           >
             <button 
-              className="nav-link text-black hover:text-zinc-700 flex items-center"
+              className="nav-link text-black hover:text-customPurple flex items-center"
               data-aos="fade-up"
             >
               Services
@@ -78,7 +78,7 @@ export default function Header() {
             )}
           </div>
 
-          <Link  data-aos="fade-left" href="/contact" className="text-black hover:text-zinc-700 transition">
+          <Link  data-aos="fade-left" href="/contact" className="text-black hover:text-customPurple transition">
             Contact Us
           </Link>
         </div>
@@ -179,10 +179,10 @@ export default function Header() {
             </Link>
 
             <a
-              href="mailto:info@techhaven.com"
+              href="mailto:info@versatilemarketers.com"
               className="text-customPurple font-bold"
             >
-              info@techhaven.com
+              info@versatilemarketers.com
             </a>
           </div>
         </div>

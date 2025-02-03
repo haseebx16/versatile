@@ -26,7 +26,7 @@ const Footer = () => {
             {/* <li data-aos="fade-down" className='hover:text-white hover:cursor-pointer'>Address</li> */}
             {/* <li data-aos="fade-right" className='hover:text-white hover:cursor-pointer'>Number</li> */}
             
-            <a href='mailto:info@versatilemarketers.com'><li data-aos="fade-left" className='hover:text-customPurple hover:cursor-pointer'>info@techhavenmarketing.com</li></a>
+            <a href='mailto:info@versatilemarketers.com'><li data-aos="fade-left" className='hover:text-customPurple hover:cursor-pointer'>info@versatilemarketers.com</li></a>
           </ul>
 
           {/* <ul className="space-y-0 text-lg p-4 pt-8 text-center md:text-left md:p-0 max-w-sm">
