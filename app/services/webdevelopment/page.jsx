@@ -14,6 +14,7 @@ import OurIndustry from '@/app/Components/OurIndustry'
 import Development from '@/app/Components/Development'
 import Connect from '@/app/Components/Connect'
 import Global from '@/app/Components/Global'
+import transition from '@/app/transition'
 
 const page = () => {
 
@@ -131,4 +132,4 @@ const page = () => {
   )
 }
 
-export default page
+export default transition(page)

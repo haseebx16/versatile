@@ -58,10 +58,6 @@ body {
   }
 }
 
-.glow-text {
-  text-shadow: 0 0 10px #ffffff, 0 0 2px #00ffcc, 0 0 3px #00ffcc;
-}
-
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -76,35 +72,6 @@ body {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #9d12a1;
-}
-
-.preloader {
-  height: 100vh;
-  width: 100%;
-  background-color: black;
-  color: white;
-  position: fixed;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 555;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-}
-
-.preloader .texts-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: auto;
-  width: auto;
-  font-size: 40px;
-  font-weight: 800;
-  overflow: hidden;
-  color: white;
 }
 
 @keyframes cubeMove {
@@ -147,4 +114,24 @@ body {
 
 .pulse-button {
   animation: pulse 1.0s infinite;
+}
+
+.slide-in {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #1a1a1a;
+  transform-origin: bottom;
+}
+
+.slide-out {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  transform-origin: top;
 }

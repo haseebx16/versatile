@@ -4,9 +4,10 @@ import emailjs from 'emailjs-com';
 import AOS from "aos";
 import ContactModal from './ContactModal';
 import "aos/dist/aos.css";
+import transition from '../transition';
 import { font } from './fonts/font';
 
-export default function Hero() {
+function Hero() {
   useEffect(() => {
     AOS.init({ duration: 1000, once: true });
   }, []);
@@ -72,3 +73,5 @@ export default function Hero() {
     </section>
   );
 }
+
+export default transition(Hero)

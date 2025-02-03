@@ -9,6 +9,7 @@ import { useEffect } from "react"
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Footer from '../Components/Footer'
+import transition from '../transition'
 
 const page = () => {
 
@@ -181,4 +182,4 @@ const page = () => {
   )
 }
 
-export default page
+export default transition(page)
