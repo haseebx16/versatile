@@ -93,7 +93,7 @@ const page = () => {
               <span className='text-customPurple'>Versatile Marketers</span> - Your Personal Unfair Advantage
             </h2>
             <h1 className="font-oswald text-center text-4xl md:text-5xl lg:text-6xl font-bold mb-6 tracking-wide">
-              Android Development Services
+              Website Development Services
             </h1>
           </div>
         </div>
@@ -104,9 +104,9 @@ const page = () => {
     >
       <section className="md:w-[50%] w-[100%] z-20 md:mr-12 flex flex-col justify-center items-center">
       <div>
-          <p className="md:text-5xl text-2xl uppercase text-customPurple">Hire the best Android Developers</p>
+          <p className="md:text-5xl text-2xl uppercase text-customPurple">Hire the best Developers</p>
           <p className="text-3xl text-black font-bold mt-6">
-          Transform Your Business with Top-Notch Development Skills - Hire the Best Android Developers Today
+          Transform Your Business with Top-Notch Development Skills - Hire the Best Developers Today
           </p>
           
         </div>
@@ -115,7 +115,7 @@ const page = () => {
         <div>
           
           <p className="text-md text-black mt-6">
-          Are you in need of a skilled Android Developer or team to bring your android application to life? Look no further than <span className='text-customPurple'>Versatile Marketers.</span>
+          Are you in need of a skilled Developer or team to bring your application idea to life? Look no further than Versatile Marketers.
           </p>
           <button className="btn-primary border-2 border-black bg-transparent text-black hover:text-white hover:bg-black mt-6">
             Let's Connect
